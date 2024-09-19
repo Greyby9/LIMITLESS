@@ -12,7 +12,8 @@
     display: flex;
     justify-content: left;
     flex-grow: 1;
-    text-align: left;  
+    text-align: left; 
+    color: black;
     
 }
 
