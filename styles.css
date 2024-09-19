@@ -20,7 +20,8 @@
     margin-left: 20px; 
 }
 .right{
-    display: flex;
+    display: flex; 
+    justify-content: flex-end;
     align-items: right;
     flex-grow: 1;
     text-align: right;
