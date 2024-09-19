@@ -1,5 +1,6 @@
 .navbar-custom {
     border-bottom: 1px solid black; /* Línea inferior de 2px de grosor y color negro */
+    padding: 8px 50px;
 }
 .center{
     display: flex;
