@@ -1,14 +1,14 @@
 .navbar-custom {
     border-bottom: 1px solid black; /* Línea inferior de 2px de grosor y color negro */
 }
-.logo{
+.center{
     display: flex;
     justify-content: center;
     flex-grow: 1;
     text-align: center;
 
 }
-.instagram{
+.left{
     display: flex;
     justify-content: left;
     flex-grow: 1;
