@@ -8,4 +8,11 @@
     text-align: center;
 
 }
+.instagram{
+    display: flex;
+    justify-content: left;
+    flex-grow: 1;
+    text-align: left;  
+    
+}
 
