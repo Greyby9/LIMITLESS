@@ -27,6 +27,14 @@
     text-align: right;
     color: black;
     margin-right: 20px; 
-
+}
+.iniciar_sesion{
+    display: flex; 
+    justify-content: flex-end;
+    align-items: right;
+    flex-grow: 1;
+    text-align: right;
+    color: black;
+    margin-right: 20px; 
 }
 
