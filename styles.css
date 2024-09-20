@@ -40,7 +40,6 @@
 .margem{
     display: flex; 
     flex-grow: 1;
-    align-items: center;
     justify-content: center;
     margin-right: 700px;
     margin-left: 700px;
