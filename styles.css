@@ -43,6 +43,7 @@
     margin: 150px auto;
     max-width: 1200px;
     padding: 20px; 
+    flex-directory: column;
 }
 .botones{
      margin-top: 70px;
