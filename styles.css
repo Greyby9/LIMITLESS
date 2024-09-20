@@ -9,7 +9,7 @@
     text-align: center;
 }
 .center .logo img {
-    height: 50px; /* Ajusta el tamaño del logo */
+    height: 50px;
 }
 .left{
     display: flex;
