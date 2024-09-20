@@ -38,11 +38,11 @@
     margin-right: 70px; 
 }
 .margem {
+    display: flex;
     justify-content: center;
-    margin-right: 700px;
-    margin-left: 700px;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin: 150px auto;
+    max-width: 1200px;
+    padding: 20px; 
 }
 .container{
 
