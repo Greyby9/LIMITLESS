@@ -37,7 +37,7 @@
     color: black;
     margin-right: 70px; 
 }
-.container {
+.margem {
     display: flex;
     justify-content: center;
     margin: 150px auto;
@@ -54,5 +54,8 @@
     align-items: center;
     justify-content: center:
 }
+.textfield > label {
+    text-size: 2rem;
 
+}
 
