@@ -37,12 +37,18 @@
     color: black;
     margin-right: 70px; 
 }
-.margem .botones{
+.margem{
     justify-content: center;
     margin-right: 300px;
     margin-left: 300px;
     margin-top: 150px;
     margin-bottom: 150px;
+}
+.botones{
+    justify-content: center;
+
+
+    
 }
 
 
