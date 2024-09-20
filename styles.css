@@ -48,4 +48,10 @@
      margin-top: 70px;
 }
 
+.textfield{
+    flex-directory: column;
+    align-items: flex-start;
+    justify-content: center:
+}
+
 
