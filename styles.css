@@ -38,6 +38,9 @@
     margin-right: 70px; 
 }
 .margem{
+    display: flex; 
+    flex-grow: 1;
+    align-items: center;
     justify-content: center;
     margin-right: 700px;
     margin-left: 700px;
@@ -45,6 +48,11 @@
     margin-bottom: 150px;
 }
 .botones{
+    margin-top: 70px;
+    justify-content: center;
+    display: flex; 
+    flex-grow: 1;
+    align-items: center;
     justify-content: center;
 
 
