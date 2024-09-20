@@ -38,27 +38,11 @@
     margin-right: 70px; 
 }
 .margem{
-    display: flex; 
-    flex-grow: 1;
     justify-content: center;
     margin-right: 700px;
     margin-left: 700px;
     margin-top: 150px;
     margin-bottom: 150px;
-}
-.botones{
-    margin-top: 70px;
-    justify-content: center;
-    display: flex; 
-    flex-grow: 1;
-    align-items: center;
-    justify-content: center;
-
-
-    
-}
-.cajas{
-    border: 1px solid #000000;
 }
 
 
