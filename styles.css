@@ -52,7 +52,7 @@
 .login{
     display: flex;
     justify-content: center;
-    margin: 100px 500px 500px 100px; 
+    margin: 100px; 
 }
 .etiqueta{
     padding: 10px;
