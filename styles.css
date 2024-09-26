@@ -52,13 +52,4 @@ body{
      margin-top: 70px;
 }
 
-.textfield{
-    flex-directory: column;
-    align-items: center;
-    justify-content: center:
-}
-.textfield > label {
-    text-size: 2rem;
-
-}
 
