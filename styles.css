@@ -52,7 +52,7 @@
 .login{
     display: flex;
     justify-content: center;
-    margin: 100%;
+    padding: 100px 500px 500px 100px;
     
 }
 
