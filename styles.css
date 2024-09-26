@@ -2,34 +2,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.login-container{
-    align-text: center;
-    max-width: 400px;
-    width: 100%;
-}
-.login-container h1{
-    margim-bottom: 70px;
-}
-.input-group{
-    margin-bottom: 20px;
-    text-align: left;
-}
-.input-group label {
-    font-size: 14px;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 5px;
-}
-
-.input-group input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #000;
-    font-size: 16px;
-}
-
-
+    
 .navbar-custom {
     border-bottom: 1px solid black; 
     padding: 8px 50px;
