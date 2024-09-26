@@ -53,6 +53,7 @@
     display: flex;
     justify-content: center;
     margin: 100px; 
+    align-content: center;
 }
 .etiqueta{
     padding: 10px;
