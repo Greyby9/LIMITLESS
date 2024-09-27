@@ -60,6 +60,16 @@
     align-items: center;
     flex-direction: column; 
 }
+.login-2{
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: tanslate(-50%;-50%);
+    align-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
 .etiqueta{
     padding: 10px;
 }
