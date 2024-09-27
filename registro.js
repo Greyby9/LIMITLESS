@@ -1,9 +1,8 @@
 <script type="module">
 
   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js";
-  import {sendEmailVerification, getAuth, signInWithPopup, 
-    createUserWithEmailAndPassword, signInWithEmailAndPassword,  
-    onAuthStateChanged} from 'www.gstatic.com/firebasejs/9.0.2/firebase-auth.js';
+  import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-auth.js";
+  import { getFirestore, doc, setDoc } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore.js";
 
   const firebaseConfig = {
     apiKey: "AIzaSyAwLftNslvPuHAiBy1ew-H6ktLGmG13Obc",
@@ -19,5 +18,32 @@
   const auth = getAuth(app);
   const db = getFirestore(app);
 
+    document.getElementById("registro").addEventListener("submit", async function(event) {
+    event.preventDefault();
+
+    
+    const nombre = document.getElementById("nomereg").value;
+    const apellidos = document.getElementById("apelidoreg").value;
+    const correo = document.getElementById("emailreg").value;
+    const contraseña = document.getElementById("passwordreg").value;
+
+    try {
+     
+      const userCredential = await auth.createUserWithEmailAndPassword(emailreg, passwordreg);
+      const user = userCredential.user;
+
+
+      await db.collection("usuarios").doc(user.uid).set({
+        nome: nomereg,
+        apelido: apelidoreg,
+        email: emailreg
+      });
+
+      alert("Usuario registrado exitosamente");
+    } catch (error) {
+      console.error("Error ao registrar el usuario:", error);
+      alert("Error al registrar: " + error.message);
+    }
+  });
   
 </script>
