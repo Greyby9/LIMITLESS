@@ -1,6 +1,9 @@
 <script type="module">
 
   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js";
+  import {sendEmailVerification, getAuth, signInWithPopup, 
+    createUserWithEmailAndPassword, signInWithEmailAndPassword,  
+    onAuthStateChanged} from 'www.gstatic.com/firebasejs/9.0.2/firebase-auth.js';
 
   const firebaseConfig = {
     apiKey: "AIzaSyAwLftNslvPuHAiBy1ew-H6ktLGmG13Obc",
