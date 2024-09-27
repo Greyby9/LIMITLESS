@@ -52,14 +52,6 @@
     outline: none;
     
 }
-.login{
-    display: flex;
-    justify-content: center;
-    margin: 100px; 
-    align-content: center;
-    align-items: center;
-    flex-direction: column; 
-}
 .login-2{
     display: flex;
     justify-content: center;
@@ -79,6 +71,5 @@
 }
 .botones{
     margin: 20px;
-    
 }
 
