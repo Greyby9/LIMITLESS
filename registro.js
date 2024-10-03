@@ -1,3 +1,4 @@
+window.onload = function() {
 const firebaseConfig = {
     apiKey: "AIzaSyAwLftNslvPuHAiBy1ew-H6ktLGmG13Obc",
     authDomain: "limitless-760a4.firebaseapp.com",
@@ -68,3 +69,4 @@ document.getElementById('login').addEventListener('submit', function(event) {
             document.getElementById('error-message').textContent = errorMessage;
         });
 });
+};
