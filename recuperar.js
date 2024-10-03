@@ -20,11 +20,19 @@ const db = firebase.firestore();
             // Enviar correo de recuperación de contraseña
             auth.sendPasswordResetEmail(resetEmail)
                 .then(() => {
-                    document.getElementById('error-message').textContent = "Correo de recuperación enviado. Revisa tu bandeja de entrada.";
+                    const messageDiv = document.getElementById('error-message');
+                    messageDiv.classList.remove('alert-danger');
+                    messageDiv.classList.add('alert-success');  // Cambiar a alert-success
+                    messageDiv.textContent = "Correo de recuperação enviado. Verifique sua caixa de entrada.";
+                    messageDiv.classList.remove('d-none'); // Mostrar el mensaje
                 })
                 .catch((error) => {
-                    const errorMessage = error.message;
-                    document.getElementById('error-message').textContent = errorMessage;
+                     const errorMessage = error.message;
+                    const messageDiv = document.getElementById('error-message');
+                    messageDiv.classList.remove('alert-success'); // Remover clase de éxito
+                    messageDiv.classList.add('alert-danger'); // Asegurarse de que sea un mensaje de error
+                    messageDiv.textContent = errorMessage;
+                    messageDiv.classList.remove('d-none'); // Mostrar el mensaje
                 });
         });
 
