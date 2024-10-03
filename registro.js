@@ -36,8 +36,11 @@ document.getElementById('registro').addEventListener('submit', function(event) {
                     });
                 })
                 .then(() => {
-                    console.log("Usuario registrado y datos guardados en Firestore.");
-                    // Aquí puedes redirigir o mostrar un mensaje de éxito
+                  const successMessageDiv = document.getElementById('success-message');
+                      successMessageDiv.textContent = "¡Usuario creado correctamente!";
+                      successMessageDiv.style.display = "block";
+                    console.log("efectivo");
+                    
                 })
                 .catch((error) => {
                     const errorMessage = error.message;
