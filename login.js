@@ -1,6 +1,7 @@
 
 document.getElementById('login')?.addEventListener('submit', function(event) {
     event.preventDefault();
+    
 
     const email = document.getElementById('emaillog').value;
     const password = document.getElementById('passwordlog').value;
