@@ -1,3 +1,6 @@
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
+import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js";
+
 const firebaseConfig = {
   apiKey: "AIzaSyAwLftNslvPuHAiBy1ew-H6ktLGmG13Obc",
   authDomain: "limitless-760a4.firebaseapp.com",
