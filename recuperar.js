@@ -15,7 +15,7 @@ const db = firebase.firestore();
         document.getElementById('recuparpass').addEventListener('submit', function(event) {
             event.preventDefault();
   
-            const resetEmail = document.getElementById('resetEmail').value;
+            const resetEmail = document.getElementById('emailrec').value;
   
             // Enviar correo de recuperación de contraseña
             auth.sendPasswordResetEmail(resetEmail)
