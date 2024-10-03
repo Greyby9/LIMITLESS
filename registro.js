@@ -55,7 +55,7 @@ document.getElementById('registro').addEventListener('submit', function(event) {
             const loginPassword = document.getElementById('passwordlog').value;
   
             // Iniciar sesión del usuario en Firebase Authentication
-            auth.signInWithEmailAndPassword(emaillog, passwordlog)
+            auth.signInWithEmailAndPassword(LoginEmail, LoginPassword)
                 .then((userCredential) => {
                     // Usuario autenticado correctamente
                     console.log("Usuario autenticado.");
