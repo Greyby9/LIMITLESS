@@ -1,6 +1,3 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
-import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js";
-
 const firebaseConfig = {
   apiKey: "AIzaSyAwLftNslvPuHAiBy1ew-H6ktLGmG13Obc",
   authDomain: "limitless-760a4.firebaseapp.com",
@@ -44,6 +41,25 @@ document.getElementById('registro').addEventListener('submit', function(event) {
                       successMessageDiv.style.display = "block";
                     console.log("efectivo");
                     
+                })
+                .catch((error) => {
+                    const errorMessage = error.message;
+                    document.getElementById('error-message').textContent = errorMessage;
+                });
+        });
+
+        document.getElementById('login').addEventListener('submit', function(event) {
+            event.preventDefault();
+  
+            const loginEmail = document.getElementById('emaillog').value;
+            const loginPassword = document.getElementById('passwordlog').value;
+  
+            // Iniciar sesión del usuario en Firebase Authentication
+            auth.signInWithEmailAndPassword(emaillog, passwordlog)
+                .then((userCredential) => {
+                    // Usuario autenticado correctamente
+                    console.log("Usuario autenticado.");
+                    // Aquí puedes redirigir o mostrar un mensaje de éxito
                 })
                 .catch((error) => {
                     const errorMessage = error.message;
