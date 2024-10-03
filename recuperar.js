@@ -12,7 +12,7 @@ const app = firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
 const db = firebase.firestore();
 
-        document.getElementById('recuparpass').addEventListener('submit', function(event) {
+        document.getElementById('recuperarpass').addEventListener('submit', function(event) {
             event.preventDefault();
   
             const resetEmail = document.getElementById('emailrec').value;
