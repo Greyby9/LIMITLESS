@@ -5,7 +5,7 @@
 .footer{
     border-top: 1px solid black; 
     padding: 8px 0px; 
-    position: fixed;
+    position: relatived;
     bottom: 0;
     background-color: #F8F9FA;
     width: 100%;
