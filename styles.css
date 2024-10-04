@@ -79,6 +79,7 @@
 .abaixo{
     position: fixed;
     bottom: 0;
+    background-color: blue;
 
     
 }
