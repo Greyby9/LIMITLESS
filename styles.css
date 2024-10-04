@@ -76,11 +76,17 @@
      .login-2 {
         padding: 20px; 
     }   
+    .botao{
+    width: 70%;  
+    }
 }
 @media (min-width: 768px) and (max-width: 990px){
      .login-2 {
-        padding: 50px; 
+        padding: 20px; 
     }   
+    .botao{
+    width: 70%;  
+    }
 }
 @media (min-width: 991px) {
 }
