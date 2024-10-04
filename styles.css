@@ -2,9 +2,13 @@
     border-bottom: 1px solid black; 
     padding: 8px 0px;
 }
-.line2{
+.footer{
     border-top: 1px solid black; 
     padding: 8px 0px; 
+    position: fixed;
+    bottom: 0;
+    background-color: blue;
+
 }
 .center{
     display: flex;
@@ -76,13 +80,7 @@
 .botones{
     margin: 20px;
 }
-.abaixo{
-    position: fixed;
-    bottom: 0;
-    background-color: blue;
 
-    
-}
 @media (max-width: 767px) {
      .login-2 {
         padding: 20px; 
