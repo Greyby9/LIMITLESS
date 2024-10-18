@@ -81,6 +81,10 @@
 .botones{
     margin: 20px;
 }
+.productos{
+    padding :5%;
+    
+}
 
 @media (max-width: 767px) {
      .login-2 {
