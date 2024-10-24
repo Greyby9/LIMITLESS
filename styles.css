@@ -61,6 +61,7 @@ body {
     margin-right: 5px; 
 }
 .left-nome{
+    margin-top: 20px;
     flex: 1;
     display: flex;
     align-items: left;
@@ -68,6 +69,9 @@ body {
     text-align: left;
     color: black;
     margin-left: 5px; 
+}
+.ordenar{
+    flex-direction: column;
 }
 .iniciar_sesion{
     display: flex; 
