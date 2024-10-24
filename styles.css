@@ -50,6 +50,25 @@ body {
     color: black;
     margin-right: 20px; 
 }
+.right-nome{
+    flex: 1;
+    display: flex; 
+    justify-content: flex-end;
+    align-items: right;
+    flex-grow: 1;
+    text-align: right;
+    color: black;
+    margin-right: 5px; 
+}
+.left-nome{
+    flex: 1;
+    display: flex;
+    align-items: left;
+    flex-grow: 1;
+    text-align: left;
+    color: black;
+    margin-left: 5px; 
+}
 .iniciar_sesion{
     display: flex; 
     justify-content: flex-end;
