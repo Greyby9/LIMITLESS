@@ -127,8 +127,8 @@ body {
 
 .foto-product{
     background-color: #F8F9FA;
-    width: 50%;
-    max-width: none;
+    width: 260px;
+    height: 400px;
 }
 
 .product img {
