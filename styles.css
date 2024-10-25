@@ -124,6 +124,9 @@ body {
     flex-wrap: wrap;
     padding: 70px;
 }
+.foto-product img {
+    justify-content: center;
+}
 
 .foto-product{
     background-color: #F8F9FA;
