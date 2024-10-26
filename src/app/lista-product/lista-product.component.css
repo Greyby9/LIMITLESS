@@ -1,0 +1,45 @@
+
+
+.product {
+    background-color: #F8F9FA;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 260px;
+    text-decoration: none;
+    
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 15px;
+}
+
+.product h2 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.product p {
+    font-size: 1.1em;
+    color: #777;
+}
+
+.sizes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.sizes span {
+    background-color: #eee;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sizes span:hover {
+    background-color: #ddd;
+}

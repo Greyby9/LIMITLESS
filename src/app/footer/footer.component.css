@@ -1,0 +1,21 @@
+.footer{
+    border-top: 1px solid black; 
+    padding: 8px 0px; 
+    position: relatived;
+    bottom: 0;
+    background-color: #F3f3f3;
+    width: 100vw;
+    height: auto;
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.letras{
+    color: #000;
+    font-family: Archivo, sans-serif;
+    font-size: .8em;
+    font-weight: 700;
+    text-decoration: none;
+}

@@ -1,0 +1,122 @@
+.product-container {
+    display: flex;
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.gallery {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.thumbnails {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.thumbnail {
+    width: 60px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.thumbnail:hover, .thumbnail.active {
+    border-color: red;
+}
+
+.main-image {
+    flex: 1;
+
+}
+
+.main-image img {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.product-details {
+    flex: 1;
+    padding-left: 30%;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 24px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.size-options {
+    margin: 20px;
+}
+.espacio{
+    margin: 5px;
+    background: white;
+    height: 30px;
+    width: 45px;
+}
+.btn-car{
+    height: 55px;
+    width: 100%; 
+    background: black;
+    border: 1px solid black ;
+    color: white;
+}
+.detalles-camisa{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 55px;
+    width: 100%;
+    padding: 15px;
+    align-items: center;
+}
+
+.size-btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.size-btn.selected {
+    background-color: black;
+    color: white;
+}
+
+.add-to-cart {
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-to-cart:hover {
+    background-color: #444;
+}
+
+.product-info details {
+    margin-top: 10px;
+}
+
+summary {
+    font-size: 16px;
+    cursor: pointer;
+}

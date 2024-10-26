@@ -1,0 +1,50 @@
+<div class="product-container">
+    <div class="gallery">
+      <!-- Listado de miniaturas -->
+      <div class="thumbnails">
+        <img *ngFor="let thumb of thumbnails" [src]="thumb" 
+             (click)="currentImage = thumb" 
+             [class.active]="thumb === currentImage" 
+             class="thumbnail">
+      </div>
+      
+      <!-- Imagen principal -->
+      <div class="main-image">
+        <img [src]="currentImage" alt="Imagen principal del producto">
+      </div>
+    </div>
+  
+    <div class="product-details">
+      <h1>ICECREAM TEE</h1>
+      <p class="price">€39,69</p>
+      <p class="description"><strong>Tu Carrito de Helados Favorito</strong></p>
+      <p>Color Crema, sabor crema.</p>
+      <p>Este producto incluye y viene dentro de "LA LATA" de M***SHAKES.</p>
+  
+      <!-- Selección de tallas -->
+      <div class="size-options">
+        <button *ngFor="let size of sizes" 
+                (click)="selectedSize = size" 
+                [class.selected]="size === selectedSize"
+                class="espacio">
+          {{ size }}
+        </button>
+      </div>
+  
+      <!-- Botón de añadir al carrito -->
+      <button (click)="addToCart()" class="btn-car">AÑADIR AL CARRITO</button>
+  
+      <!-- Información adicional -->
+      <div class="product-info">
+        <details>
+          <summary class="detalles-camisa">GUÍA DE TALLAS</summary>
+          <p>Aquí va la información de las tallas.</p>
+        </details>
+        <details>
+          <summary class="detalles-camisa">DETALLES</summary>
+          <p>Aquí van los detalles del producto.</p>
+        </details>
+      </div>
+    </div>
+  </div>
+  
