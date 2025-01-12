@@ -8,12 +8,13 @@ import { ListaProductComponent } from './lista-product/lista-product.component';
 import { HomeComponent } from './home/home.component';
 import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
 import { ContatoComponent } from './contato/contato.component';
+import { EsqueceuPassComponent } from './esqueceu-pass/esqueceu-pass.component';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavbarComponent, FooterComponent, LoginComponent, ListaProductComponent, HomeComponent, SobreNosComponent, ContatoComponent ],
+  imports: [RouterOutlet, NavbarComponent, FooterComponent, LoginComponent, ListaProductComponent, HomeComponent, SobreNosComponent, ContatoComponent, EsqueceuPassComponent ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
